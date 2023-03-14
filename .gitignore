@@ -1,0 +1,9 @@
+*
+!/**/
+!*.*
+*.DSYM
+*.out
+.vscode
+DS_Store
+*.o
+!Makefile
