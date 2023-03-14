@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ycyr-roy <ycyr-roy@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yakary <yakary@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/20 16:06:56 by ycyr-roy          #+#    #+#             */
-/*   Updated: 2023/02/23 21:11:29 by ycyr-roy         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:12:24 by yakary           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 char	*ft_strnstr(const char *hay, const char *nee, size_t len)
 {
@@ -34,20 +33,3 @@ char	*ft_strnstr(const char *hay, const char *nee, size_t len)
 	}
 	return (NULL);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-// #include "ft_strlen.c"
-// #include "ft_strncmp.c"
-
-// int	main(void)
-// {
-//  	char *s1 = "MZIRIBMZIRIBMZE123";
-//  	char *s2 = "MZIRIBMZE";
-//  	size_t max = strlen(s2);
-//  	char *i1 = ft_strnstr(s1, s2, max);
-//  	char *i2 = strnstr(s1, s2, max);
-// 	printf("%s\n", i1);
-// 	printf("expected:\n");
-// 	printf("%s\n", i2);
-// }

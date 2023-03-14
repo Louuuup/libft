@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ycyr-roy <ycyr-roy@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yakary <yakary@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/21 12:33:07 by ycyr-roy          #+#    #+#             */
-/*   Updated: 2023/02/21 13:16:59 by ycyr-roy         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:19:39 by yakary           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,13 +48,3 @@ int	ft_atoi(const char *str)
 	}
 	return (atoi_nbr(string) * neg);
 }
-
-// #include <stdio.h>
-// #include <stdlib.h>
-// int main(void)
-// {
-// 	char a[] = "     + 242a3 25     ";
-// 	printf("%d\n", (ft_atoi(a)));
-// 	printf("%d\n", (atoi(a)));
-// 	return (0);
-// }

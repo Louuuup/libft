@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ycyr-roy <ycyr-roy@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yakary <yakary@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/13 15:18:15 by ycyr-roy          #+#    #+#             */
-/*   Updated: 2023/02/20 16:55:24 by ycyr-roy         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:18:16 by yakary           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-
-// #include <stdio.h>
-// #include <ctype.h>
-// int main(void)
-// {
-// 	char w = '\n';
-// 	printf("%d\n", ft_isascii(w));
-// 	printf("%d\n", isascii(w));
-// }

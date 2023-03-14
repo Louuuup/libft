@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ycyr-roy <ycyr-roy@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yakary <yakary@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 19:37:33 by yakary            #+#    #+#             */
-/*   Updated: 2023/02/24 15:02:55 by ycyr-roy         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:11:47 by yakary           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,16 +33,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-// #include "ft_strlen.c"
-
-// int main(void)
-// {
-//  	char *s = "\0";
-//  	char *d1 = strrchr(s, 'a');
-//  	char *d2 = ft_strrchr(s, 'a');
-// 	printf("%s\n", d1);
-// 	printf("%s\n", d2);
-// }

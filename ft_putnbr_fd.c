@@ -3,14 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ycyr-roy <ycyr-roy@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yakary <yakary@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/08 16:30:38 by ycyr-roy          #+#    #+#             */
-/*   Updated: 2023/03/10 19:45:09 by ycyr-roy         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:16:22 by yakary           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include "libft.h"
 
 static void	ft_putchar(int c, int fd);
@@ -44,15 +43,3 @@ static void	ft_putchar(int c, int fd)
 {
 	write(fd, &c, 1);
 }
-
-// #include <limits.h>
-
-// int	main(void)
-// {	
-// 	ft_putnbr_fd(42, 1);
-// 	write(1, "\n", 1);
-// 	ft_putnbr_fd(INT_MAX, 1);
-// 	write(1, "\n", 1);
-// 	ft_putnbr_fd(INT_MIN, 1);
-// 	write(1, "\n", 1);
-// }

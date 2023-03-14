@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ycyr-roy <ycyr-roy@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yakary <yakary@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/13 15:18:15 by ycyr-roy          #+#    #+#             */
-/*   Updated: 2023/02/20 16:55:33 by ycyr-roy         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:18:29 by yakary           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-
-// #include <stdio.h>
-// #include <ctype.h>
-// int main(void)
-// {
-// 	char w = '6';
-// 	printf("%d\n", ft_isalnum(w));
-// 	printf("%d\n", isalnum(w));
-// }

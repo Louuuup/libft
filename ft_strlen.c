@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ycyr-roy <ycyr-roy@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yakary <yakary@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 10:59:47 by ycyr-roy          #+#    #+#             */
-/*   Updated: 2023/02/20 16:54:32 by ycyr-roy         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:13:05 by yakary           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,13 +27,3 @@ int	ft_strlen(const char *s)
 	}
 	return (x);
 }
-
-// #include <string.h>
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char test[] = "abcdefghijjkashdwlnmopqwxyz";
-// 	printf("%d\n", ft_strlen(test));
-// 	printf("%lu\n", strlen(test));
-// }

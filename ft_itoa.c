@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ycyr-roy <ycyr-roy@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yakary <yakary@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/06 14:25:46 by ycyr-roy          #+#    #+#             */
-/*   Updated: 2023/03/09 13:04:28 by ycyr-roy         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:18:02 by yakary           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 static size_t	int_len(int n);
 static void		itoa_rec(long int n, char *out, size_t i);
@@ -67,18 +66,3 @@ static void	itoa_rec(long int n, char *out, size_t i)
 			out[i - 1] = (n + 48);
 	}
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	int x = -1234;
-// 	char test[6];
-// 	printf("%s\n", ft_itoa(x));
-
-// 	// int size;
-
-//  	// ft_itoa(-5859);
-//  	// size = get_last_malloc_size();
-//  	// printf("%d\n", size);
-// }

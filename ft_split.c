@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ycyr-roy <ycyr-roy@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yakary <yakary@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/01 19:39:56 by ycyr-roy          #+#    #+#             */
-/*   Updated: 2023/03/10 18:52:45 by ycyr-roy         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:15:41 by yakary           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 static char		**split_create(const char *str, char c, char **out);
 static size_t	split_count(const char *str, char c);
@@ -92,25 +91,3 @@ static void	*ft_free(char **split, size_t j)
 	free(split);
 	return (NULL);
 }
-
-// #include <stdio.h>
-// #include "ft_calloc.c"
-// #include "ft_bzero.c"
-// #include "ft_strdup.c"
-// #include "ft_strlen.c"
-// #include "ft_strlcpy.c"
-// #include "ft_substr.c"
-// #include "ft_memcpy.c"
-
-// int main(void)
-// {
-// 	char splitter = '\0';
-// 	char test[] = "\0aa\0bbb";
-// 	char **out = ft_split(test, splitter);
-// 	printf("OUT0:%s\n", out[0]);
-// 	printf("OUT1:%s\n", out[1]);
-// 	// printf("OUT2:%s\n", out[2]);
-// 	// printf("OUT3:%s\n", out[3]);
-// 	// printf("OUT3:%s\n", out[4]);
-// 	// printf("OUT3:%s\n", out[5]);
-// }

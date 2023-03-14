@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ycyr-roy <ycyr-roy@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yakary <yakary@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/27 13:33:17 by ycyr-roy          #+#    #+#             */
-/*   Updated: 2023/02/27 17:46:28 by ycyr-roy         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:14:58 by yakary           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,25 +36,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str_a[size - 1] = '\0';
 	return (str_a);
 }
-
-// #include "ft_memcpy.c"
-// #include "ft_strlen.c"
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char s1[] = "";
-// 	char s2[] = "dolor sit amet";
-// 	printf("%s\n", ft_strjoin(s1, s2));
-// }
-// // int main(void)
-// // {
-// //     char    str1[] = "This is a";
-// //     char    str2[] = " test !";
-// //     char    *result = ft_strjoin(str1, str2);
-// //     printf("\ns1 : %s\n", str1);
-// //     printf("\ns2 : %s\n", str2);
-// //     printf("\nResult : %s\n", result);
-// //     free(result);
-// //     return (0);
-// // }
